@@ -1,10 +1,12 @@
-# Project_Anukul
+## Project_Anukul
+
+# Abstract
 This repository contains the files related to the Miniature version of Anukul. We will be regularly updating this project with more code and information.
 To get regular updates and also to discuss any doubts or ideas related to this project please use the facebook group:Project_Anukul. https://www.facebook.com/groups/1496000903746140/
 
 
 
-
+# Description
 The circuit that we have designed is easily reproducible. In this version we have used “Arduino” as the micro-controller. This miniature version is scalable to large farms by using microcontrollers and multiplexers.
 The code has been written for arduino uno and all the uploaded libraries are arduino libraries. The circuit diagram has been created using Fritzing and has also been uploaded.
 This project is designed with the purpose of reducing water wastage from agricultural activities and increasing the agricultural productivity so that we can save more water for drinking purposes during adverse conditions such as droughts and cater the water demands of future generations.
@@ -13,7 +15,7 @@ The code has been written such that all of the inputs from the sensors will be s
 
 
 
-
+# Machine Learning
 Out of all the factors that affect the growth of the crop, we can only control soil moisture level. 
 So here soil moisture level [V0] is a dependent variable. And sunlight value [Vs], temperature [Vt]  values are independent variables.(Note although optimal moisture level depends on other factors as well, for explanation purpose we are just considering 2 factors here)
 Now there exists some unknown relation between these factors. Where [Ws] and [Wt] are the matrices that represent the unknown relation. We can predict optimal moisture level [V0] if we have [Ws] & [Wt]
@@ -23,7 +25,7 @@ As we keep on feeding the machine with more and more data, we will reduce the er
 
 
 
-
+# Possibilities
 As the years passes this will grow exponentially as is evident with any Machine Learning system and we might also be able to predict some unforeseen pattern.
 We would appreciate it if anybody could contribute to this project by writing the code related to machine learning.
 This miniature model can be scaled up. People can use this idea on a Global scale to regulate the water supply given to agricultural land so as to conserve water. This will also improve the agricultural yield of farmlands. 
